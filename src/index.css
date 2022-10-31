@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #E4E4E4;
+}
+input{
+    font-size: 14px;
+}
+.container-shadow{
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+.input-bg{
+    background-color: #E9E9E9;
+}
+.placeholder-color{
+    color: #929292;
+}
+.placeholder-off{
+    @apply placeholder-color font-bold select-none transition-all duration-200;
+}
+.placeholder-on{
+    @apply placeholder-color font-bold select-none transition-all duration-200 text-xs;
+}
+.input-off{
+    @apply w-full outline-none bg-transparent border-none font-bold h-0 transition-all;
+}
+.input-on{
+    @apply w-full outline-none bg-transparent border-none font-bold transition-all;
+}
+.input-active{
+    @apply rounded-lg w-full input-bg flex items-center p-2 gap-2 border-[3px] transition-all border-black;
+}
+.input-normal{
+    @apply rounded-lg w-full input-bg flex items-center p-2 gap-2 transition-all;
+}
+.container-col{
+    @apply flex flex-col p-6 gap-5;
+}
+.container-col-b{
+    @apply border-r-2
+}
+.display-price{
+    @apply bg-black text-white p-2 min-w-[150px] flex flex-col gap-2  rounded-lg
+}
+
+.pobre{
+    background-color: #C60707;
+}
+.bien{
+    background-color: #3A8F05;
+}
+.cuidao{
+    background-color: #DF9300;
+}
