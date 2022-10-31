@@ -45,7 +45,7 @@ input{
     @apply border-r-2
 }
 .display-price{
-    @apply bg-black text-white p-2 min-w-[150px] flex flex-col gap-2  rounded-lg
+    @apply bg-black text-white p-2 md:min-w-[150px] flex flex-col gap-2  rounded-lg
 }
 
 .pobre{
